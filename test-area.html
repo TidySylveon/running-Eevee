@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script>
+    let i = 0;
+      window.addEventListener("keydown", count, false);
+      function count(arrow){
+        var x = arrow.keyCode || arrow.which;
+        if((x === 37) || (x === 39)){
+          i++;
+          alert(i);
+        }
+      }
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <p id="write"></p>
+
+  </body>
+</html>
